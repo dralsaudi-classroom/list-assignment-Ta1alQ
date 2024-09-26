@@ -92,9 +92,10 @@ public class DLL<T> {
     		
     		current = current.next;
     	}
-    	
-    	e1Node.next = e2Node;
-    	e2Node.previous = e1Node;
+    	if(e1Node != null && e2Node != null) {
+    		e1Node.next = e2Node;
+    		e2Node.previous = e1Node;
+    	}
     	
     	current = head;
     }
