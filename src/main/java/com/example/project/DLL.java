@@ -98,3 +98,4 @@ public class DLL<T> {
     	
     	current = head;
     }
+}
