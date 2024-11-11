@@ -96,7 +96,7 @@ public class DLL<T> {
     		e1Node.next = e2Node;
     		e2Node.previous = e1Node;
     	}
-    	
+    
     	current = head;
     }
 }
